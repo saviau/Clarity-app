@@ -1,0 +1,83 @@
+body {
+    font-family: 'Spectral', cursive;
+    font-weight: bold;
+    color:rgb(80, 9, 80);
+    background: linear-gradient(90deg, rgba(138, 92, 92, 0.5), rgba(136, 83, 83, 0.5)); 
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    text-shadow:0px 1px rgba(138, 92, 92, 0.788);
+}
+
+.top {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+margin: 0px;
+font-weight: bolder;
+}
+
+.bottom {
+    font-size: 16px;
+    font-weight: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 10px;
+    bottom: 20px;
+    color:rgba(136, 83, 83, 0.5);
+    font-style: italic;
+    border-bottom: 1px ridge rgba(136, 83, 83, 0.1);
+    padding-bottom: 15px;
+    text-shadow: 0 1px rgba(136, 83, 83, 0.4);
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    display: flex;
+background-color:rgba(138, 92, 92, 0.3);
+border-radius: 30%;
+padding: 10px;
+margin: 10px;
+}
+
+.jotit {
+    justify-content: center;
+    align-items: center;
+    left: 250px;
+    text-shadow: 0 1px rgba(136, 83, 83, 0.2);
+}
+
+.snapit {
+    justify-content: center;
+    align-items: center;
+    left: 350px;
+    text-shadow: 0 1px rgba(136, 83, 83, 0.3);
+}
+
+.sayit {
+    justify-content: center;
+    align-items: center;
+    left: 450px;
+    text-shadow: 0 1px rgba(136, 83, 83, 0.4);
+}
+
+.drawit {
+    justify-content: center;
+    align-items: center;
+    left: 550px;
+    text-shadow: 0 1px rgba(136, 83, 83, 0.5);
+}
+
+.main {
+    background: linear-gradient(rgb(138, 92, 92, 0.5), rgb(138, 92, 92, 0));
+    width: 100%;
+}
